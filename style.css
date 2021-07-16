@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap');
+
+body {
+	font-family: 'Noto Sans JP', sans-serif !important;
+	background-color: rgba(128, 128, 128, 0.438);
+}
+
+/* body {
+	background-image: url('https://wallpapercave.com/wp/wp5357264.jpg');
+} */
+.hero {
+	position: relative;
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero::before {
+	content: '';
+	background-image: url('https://t4.ftcdn.net/jpg/03/60/64/45/360_F_360644563_7JG7r0Gw6pNDwyqfTKgNvHoog3y2P6LM.jpg');
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.6;
+}
+nav li a {
+	color: rgba(245, 245, 245, 0.616);
+	font-size: 14px;
+	transition: color 0.3s ease-out;
+}
+
+nav li a :hover {
+	color: rgb(245, 245, 245);
+}
+.icon {
+	color: rgba(245, 245, 245, 0.616) !important;
+}
+
+hr {
+	color: #333;
+	height: 1px;
+}
+
+button {
+	background-color: rgb(184, 127, 238);
+	margin-left: 3rem;
+}
+.loading {
+	color: blueviolet;
+	font-size: 2rem;
+}
+.sale .container li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+.sale .container li a {
+	color: black;
+	text-decoration: none;
+	transition: color 0.4s ease-out;
+}
+.sale .container li .active {
+	color: rgb(137, 22, 245);
+
+	border-bottom: 2px solid blueviolet;
+}
+.card {
+	cursor: pointer;
+	transition: all 0.2s;
+	border-radius: 10px;
+}
+.card:hover {
+	transform: scale(1.02);
+
+	background-color: rgba(209, 129, 92, 0.637);
+}
+/* .text-over {
+	position: relative;
+}
+.text-layer::after {
+	content: 'Releases: Disaster Report 4: Summer Memories';
+	position: absolute;
+	z-index: 12;
+	color: whitesmoke;
+	background-color: yellowgreen;
+	top: 0;
+	bottom: 0;
+} */
+li {
+	list-style: none;
+}
+.footer-banner {
+	background-color: rgba(0, 0, 0, 0.39);
+	height: 5vh;
+}
+.footer-part-2 {
+	background-color: rgba(0, 0, 0, 0.39);
+}
+.footer-part-2 li a,
+.footer-banner li a {
+	color: rgba(22, 19, 19, 0.582);
+}
